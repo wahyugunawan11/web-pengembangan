@@ -1,0 +1,54 @@
+.judul{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+}
+.judul2{
+	font-family: 'Book Antiqua';
+	font-size: 16px;
+	font-weight : bold;
+}
+.judul3{
+	font-family: 'Book Antiqua';
+	font-size: 28px;
+	font-weight : bold;
+}
+.judul4{
+	font-family: 'Book Antiqua';
+	font-size: 30px;
+	font-weight : bold;
+}
+.judul5{
+	font-family: 'Book Antiqua';
+	font-size: 10px;
+}
+.judul6{
+	font-family: 'Book Antiqua';
+	font-size: 13px;
+}
+.kontainer {
+	width:100%;    /* penuh layar atau fluid/flexible, gunakan ukuran px untuk fixed width */
+	margin:0 auto; /* opsional, supaya table berada di tengah jika dalam mode fixed,*/
+	               /* bertindak seperti <table align="center">*/
+	border: solid; /* border, opsional */
+	page-break-after: always;
+}
+.baris {
+	width: 100%;    /* harus 100% supaya penuh ke area table */
+}
+.kiri{
+	float: left;
+	width: auto;
+}
+.tengah{
+	width: auto;
+}
+.kanan{
+	float: right;
+	width: auto;
+}
+.kolom {
+	width: 12.2%; /* pembagian 100% dengan 8 kolom, seharusnya 12.5%, */
+	              /* diberikan kompensasi seperlunya karena penggunaan margin,*/
+	              /* padding maupun border nantinya akan mempengaruhi lebar kolom */
+	float: left;  /* kolom yang lebih duluan akan ditempatkan di kiri, begitu seterusnya */
+}
